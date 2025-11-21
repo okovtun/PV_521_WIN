@@ -4,11 +4,11 @@ https://www.youtube.com/playlist?list=PLeqyOOqxeiIPna7oEwBxnlj3yEEZYFBWx
 Git/GitHub:
 https://www.youtube.com/watch?v=uFEo1zCePJk&list=PLeqyOOqxeiIP4IcNHD37jcaLVmXEbFd1k&index=22&t=2777s
 
-TODO:
-1. В Solution 'WinAPI' добавить проект 'ListBox', и выполнить с ним все те же манипуляции что и в проекте 'ComboBox';
+DONE:
+1. В Solution 'WinAPI' добавить проект 'ListBox', и выполнить с ним все те же манипуляции что и в проекте 'ComboBox'; DONE
 2. В проекте 'ListBox' в окно добавить дву кнопки 'Добавить' и 'Удалить'.
    Кнопка добавить открывает еще одно окно, в которое пользователь может вписать значение добавляемого элемента;
-   Кнопка 'Удалить' удаляет выбранный пункт ListBox-а;
+   Кнопка 'Удалить' удаляет выбранный пункт ListBox-а;	DONE
 3. При двойном щелчке мышью по элементу ListBox, или при нажатии клавиши 'Enter' на элементе ListBox,
    открывается окно, которое позволяет отредактировать этот элемент;
 4. https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%BD%D0%B3%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F_%D0%BD%D0%BE%D1%82%D0%B0%D1%86%D0%B8%D1%8F
