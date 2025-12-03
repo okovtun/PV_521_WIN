@@ -7,7 +7,6 @@
 #define IDC_LIST1                       1001
 #define IDC_BUTTON_ADD                  1003
 #define IDC_BUTTON_DELETE               1004
-#define IDC_EDIT1                       1005
 #define IDC_EDIT                        1005
 
 // Next default values for new objects

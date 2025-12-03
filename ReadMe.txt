@@ -1,15 +1,21 @@
 ﻿https://github.com/okovtun/PV_521_WIN.git
-https://www.youtube.com/playlist?list=PLeqyOOqxeiIPna7oEwBxnlj3yEEZYFBWx
+https://www.youtube.com/playlist?list=PLeqyOOqxeiIOgvhG0Gi1JVJgxl8q__NUg
 
 Git/GitHub:
 https://www.youtube.com/watch?v=uFEo1zCePJk&list=PLeqyOOqxeiIP4IcNHD37jcaLVmXEbFd1k&index=22&t=2777s
 
 Books:
 https://winprog.org/tutorial/
+https://learn.microsoft.com/en-us/windows/win32/winmsg/about-messages-and-message-queues
+
+https://learn.microsoft.com/ru-ru/sysinternals/downloads/zoomit
 
 TODO:
-1. При запуске программы окно должно появляться ровно посередине экрана и занимать 75% экрана;
-2. При перемещении окна и изменении его размеров положение окна на экране и его размер 
+1. Организовать вычисления;
+
+DONE:
+1. При запуске программы окно должно появляться ровно посередине экрана и занимать 75% экрана;	DONE
+2. При перемещении окна и изменении его размеров положение окна на экране и его размер			DONE
    должны отображаться в строке заголовка;
    -------------------------------------------------
 3. Проверить отображается ли наш курсор над дочерними окнами;
