@@ -11,6 +11,9 @@ https://github.com/maybez/maybe/blob/master/Books/windows/Windows%20Via%20C／C+
 
 https://learn.microsoft.com/ru-ru/sysinternals/downloads/zoomit
 
+Disable stupid VS features:
+https://stackoverflow.com/questions/73964338/how-to-disable-automatic-brace-surrounding-on-selection-in-visual-studio
+
 TODO:
 1. Добить функцию SetSkin();
 2. Фон окна должен соответствовать выбранной теме;
