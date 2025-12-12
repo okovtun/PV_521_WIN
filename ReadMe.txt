@@ -14,7 +14,15 @@ https://learn.microsoft.com/ru-ru/sysinternals/downloads/zoomit
 Disable stupid VS features:
 https://stackoverflow.com/questions/73964338/how-to-disable-automatic-brace-surrounding-on-selection-in-visual-studio
 
+Preprocessor:
+https://learn.microsoft.com/en-us/cpp/preprocessor/token-pasting-operator-hash-hash?view=msvc-170
+
 TODO:
+1. Вынести темы в соответствующие DLL-файлы: "square_blue.dll" и "metal_mistral.dll":
+	https://learn.microsoft.com/sr-cyrl-rs/cpp/build/creating-a-resource-only-dll?view=msvc-170
+2. Сделать для калькулятора программу установки;
+
+DONE:
 1. Добить функцию SetSkin();	DONE
 2. Фон окна должен соответствовать выбранной теме;	DONE
 
