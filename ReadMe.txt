@@ -18,6 +18,15 @@ Preprocessor:
 https://learn.microsoft.com/en-us/cpp/preprocessor/token-pasting-operator-hash-hash?view=msvc-170
 
 TODO:
+1. Почитать про двойную буферизацию;
+2. Создать ветку ClockHW1;
+3. Часы должны запускаться в правом верхнем углу, независимо от размнров экрана;
+4. При нажатии ПКМ на часах и на значке в системном трее должно появляться 
+   контекстное меню со всеми необходимыми функциями;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+TODO:
 1. Вынести темы в соответствующие DLL-файлы: "square_blue.dll" и "metal_mistral.dll":
 	https://learn.microsoft.com/sr-cyrl-rs/cpp/build/creating-a-resource-only-dll?view=msvc-170
 2. Создать свою тему для калькулфтора;
