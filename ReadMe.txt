@@ -18,6 +18,9 @@ Preprocessor:
 https://learn.microsoft.com/en-us/cpp/preprocessor/token-pasting-operator-hash-hash?view=msvc-170
 
 TODO:
+1. Протестировать часы на долговременную работу;
+
+TODO:
 0. Создать ветку 'ClockHW2';
 1. Обеспечить смену цвета текста и форна при помощи меню 'Color';
 2. Для отображения времени и остальных данных использовать кастомный шрифт;
