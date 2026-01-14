@@ -18,6 +18,10 @@ Preprocessor:
 https://learn.microsoft.com/en-us/cpp/preprocessor/token-pasting-operator-hash-hash?view=msvc-170
 
 TODO:
+1. При двойном щелчке на будильник в списке, должен отерыться AlarmDialog, 
+   в который будут загружены параметры выбранного будильника;
+
+DONE:
 1. Окно 'Alarms' должно открываться рядом с часами;
 2. Окно 'AlarmDialog' должно открываться ровно по середине окна 'Alarms';
 3. Накачать музона в разных форматах: mp3, Flac, APE, WMA....., 

@@ -140,6 +140,7 @@
 			this.tsmiShowConsole.Name = "tsmiShowConsole";
 			this.tsmiShowConsole.Size = new System.Drawing.Size(180, 22);
 			this.tsmiShowConsole.Text = "Show console";
+			this.tsmiShowConsole.CheckedChanged += new System.EventHandler(this.tsmiShowConsole_CheckedChanged);
 			// 
 			// toolStripSeparator3
 			// 

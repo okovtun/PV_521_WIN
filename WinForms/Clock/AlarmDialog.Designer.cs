@@ -101,6 +101,7 @@
 			this.clbWeekDays.Size = new System.Drawing.Size(411, 28);
 			this.clbWeekDays.TabIndex = 4;
 			this.clbWeekDays.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.clbWeekDays_ItemCheck);
+			this.clbWeekDays.SelectedIndexChanged += new System.EventHandler(this.clbWeekDays_SelectedIndexChanged);
 			// 
 			// labelFilename
 			// 
@@ -130,6 +131,7 @@
 			this.buttonOK.TabIndex = 7;
 			this.buttonOK.Text = "OK";
 			this.buttonOK.UseVisualStyleBackColor = true;
+			this.buttonOK.Click += new System.EventHandler(this.buttonOK_Click);
 			// 
 			// buttonCancel
 			// 
