@@ -159,6 +159,8 @@
 			this.Controls.Add(this.dtpDate);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			this.Name = "AlarmDialog";
+			this.ShowInTaskbar = false;
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
 			this.Text = "AlarmDialog";
 			this.ResumeLayout(false);
 			this.PerformLayout();

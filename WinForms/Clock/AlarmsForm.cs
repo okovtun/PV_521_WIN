@@ -12,18 +12,33 @@ namespace Clock
 {
 	public partial class AlarmsForm : Form
 	{
-		AlarmDialog alarm;
+		//AlarmDialog alarm;
 		public AlarmsForm()
 		{
 			InitializeComponent();
-			alarm = new AlarmDialog();
+			//alarm = new AlarmDialog();
 		}
 
 		private void buttonAdd_Click(object sender, EventArgs e)
 		{
+			AlarmDialog alarm = new AlarmDialog();
 			if(alarm.ShowDialog() == DialogResult.OK)
 			{
-				listBoxAlarms.Items.Add(alarm.Alarm);
+				listBoxAlarms.Items.Add(new Alarm(alarm.Alarm));
+			}
+		}
+
+		private void listBoxAlarms_MouseDoubleClick(object sender, MouseEventArgs e)
+		{
+			if (listBoxAlarms.Items.Count > 0 && listBoxAlarms.SelectedItem != null)
+			{
+				AlarmDialog alarm = new AlarmDialog(listBoxAlarms.SelectedItem as Alarm);
+				alarm.ShowDialog();
+				listBoxAlarms.Update();
+			}
+			else
+			{
+				buttonAdd_Click(sender, e);
 			}
 		}
 	}
