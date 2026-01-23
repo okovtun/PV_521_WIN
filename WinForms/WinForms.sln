@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.36001.139
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock", "Clock\Clock.csproj", "{5D1F5965-35A7-4AA2-92C4-7E9CE348CFE4}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ClockSetup", "ClockSetup\ClockSetup.vdproj", "{AAF33DB6-FB50-4DAA-AF63-F0361C859C14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{5D1F5965-35A7-4AA2-92C4-7E9CE348CFE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D1F5965-35A7-4AA2-92C4-7E9CE348CFE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D1F5965-35A7-4AA2-92C4-7E9CE348CFE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAF33DB6-FB50-4DAA-AF63-F0361C859C14}.Debug|Any CPU.ActiveCfg = Debug
+		{AAF33DB6-FB50-4DAA-AF63-F0361C859C14}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
