@@ -18,8 +18,8 @@ Preprocessor:
 https://learn.microsoft.com/en-us/cpp/preprocessor/token-pasting-operator-hash-hash?view=msvc-170
 
 TODO:
-1. Прикрутить значек к EXE-шнику часов;
-2. Часы должны запускаться сразу же после установки;
+1. Прикрутить значек к EXE-шнику часов;					DONE
+2. Часы должны запускаться сразу же после установки;	DONE
 3. Решить проблему "Settings.ini" при закрытии часов;
 
 DONE:
