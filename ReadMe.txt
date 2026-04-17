@@ -17,6 +17,12 @@ https://stackoverflow.com/questions/73964338/how-to-disable-automatic-brace-surr
 Preprocessor:
 https://learn.microsoft.com/en-us/cpp/preprocessor/token-pasting-operator-hash-hash?view=msvc-170
 
+WPF:
+https://www.youtube.com/watch?v=uMNYu0p3MP4&list=PL-p05fYs48r-HOAA4_5qZfS0rTIka3fgc
+
+TODO:
+Изменить содержимое кнопки НЕ используя ее имя;
+
 TODO:
 1. Прикрутить значек к EXE-шнику часов;					DONE
 2. Часы должны запускаться сразу же после установки;	DONE
