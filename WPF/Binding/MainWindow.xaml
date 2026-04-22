@@ -7,24 +7,33 @@
         mc:Ignorable="d"
         Title="Binding PV_521" Height="400" Width="300" FontSize="16">
 	<!--https://stackoverflow.com/questions/1345391/set-focus-on-textbox-in-wpf-->
-    <Grid FocusManager.FocusedElement="{Binding ElementName=txtInput}">
+	<Grid FocusManager.FocusedElement="{Binding ElementName=txtInput}" >
 		<Grid.RowDefinitions>
 			<RowDefinition />
 			<RowDefinition />
 			<RowDefinition />
+			<RowDefinition />
+			<RowDefinition />
+			<RowDefinition />
+			<RowDefinition />
 		</Grid.RowDefinitions>
-		<TextBox Name="txtInput" Grid.Row="0"
-				 Width="250" Height="40"
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="20" />
+			<ColumnDefinition />
+			<ColumnDefinition Width="20"/>
+		</Grid.ColumnDefinitions>
+		<TextBox Name="txtInput" Grid.Row="1" Grid.Column="1"
 				 HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+				 TextWrapping="Wrap"
 				 Text="{Binding BoundText, UpdateSourceTrigger=PropertyChanged, Mode=OneWayToSource}"
 				/>
-		<Button Name="btnSet" Grid.Row="1"
-				Width="250" Height="40"
+		<Button Name="btnSet" Grid.Row="3" Grid.Column="1"
 				Content="Set"
 				Click="BtnSet_Click"
 				/>
-		<TextBlock Name="tbResult" Grid.Row="2"
+		<TextBlock Name="tbResult" Grid.Row="5" Grid.Column="1"
 				   HorizontalAlignment="Center" VerticalAlignment="Center"
+				   TextWrapping="Wrap"
 				   Text="{Binding BoundText}"
 				/>
 	</Grid>
